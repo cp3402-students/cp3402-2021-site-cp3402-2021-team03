@@ -37,6 +37,22 @@ if ( visualcomposerstarter_is_the_footer_displayed() ) : ?>
 		<div class="footer-bottom">
 			<div class="<?php echo esc_attr( visualcomposerstarter_get_content_container_class() ); ?>">
 				<?php if ( get_theme_mod( 'vct_footer_area_social_icons', false ) ) : ?>
+                    <div class="footer-left-block">
+                        <p class="copyright">
+                        <span>
+							<?php /* translators: 1. link opening tag, 2. link opening tag, 3. link closing tag */
+                            printf( esc_html__( 'Follow us on social media', 'visual-composer-starter' ), '<a href="https://visualcomposer.com/?utm_campaign=vc-theme&utm_source=vc-theme-front&utm_medium=vc-theme-footer" target="_blank">', '<a href="https://wordpress.org" target="_blank">', '</a>' ); ?></span>
+                        </p>
+                        <?php if ( has_nav_menu( 'secondary' ) ) : ?>
+                            <div class="footer-menu">
+                                <?php
+                                wp_nav_menu( array(
+                                    'theme_location' => 'secondary',
+                                ) );
+                                ?>
+                            </div>
+                        <?php endif; ?>
+                    </div>
 					<div class="footer-right-block">
 						<div class="footer-socials">
 							<ul>
@@ -95,19 +111,7 @@ if ( visualcomposerstarter_is_the_footer_displayed() ) : ?>
 						</div>
 					</div>
 				<?php endif; ?>
-				<div class="footer-left-block">
 
-					<?php if ( has_nav_menu( 'secondary' ) ) : ?>
-						<div class="footer-menu">
-							<?php
-							wp_nav_menu( array(
-								'theme_location' => 'secondary',
-							) );
-							?>
-						</div>
-					<?php endif; ?>
-
-				</div>
 				<?php do_action( 'visualcomposerstarter_after_footer_copyright' ); ?>
 			</div>
 		</div>
