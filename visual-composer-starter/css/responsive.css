@@ -28,13 +28,13 @@
     display: none !important;
   }
   body:not(.menu-sandwich) #main-menu {
-    text-align: right;
+    text-align: center;
     position: static;
     width: auto;
     background: none;
     padding: 0;
     overflow-y: inherit;
-    margin-left: 28%;
+    margin-left: 0%;
   }
   body:not(.menu-sandwich) #main-menu .header-widgetised-area {
     float: right;
