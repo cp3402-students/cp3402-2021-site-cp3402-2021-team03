@@ -53,7 +53,7 @@ if ( visualcomposerstarter_is_the_footer_displayed() ) : ?>
                             </div>
                         <?php endif; ?>
                     </div>
-					<div class="footer-right-block">
+					<div class="footer-left-block">
 						<div class="footer-socials">
 							<ul>
 								<?php if ( strlen( get_theme_mod( 'vct_footer_area_social_link_facebook', '' ) ) ) : ?>
