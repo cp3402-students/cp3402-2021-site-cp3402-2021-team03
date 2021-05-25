@@ -54,6 +54,8 @@
   }
   body:not(.menu-sandwich) #main-menu > ul > li {
     font-size: 18px;
+    background-color: beige;
+    border: 2px solid;
   }
   body:not(.menu-sandwich) #main-menu > ul > li a {
     padding: 0.55em 0.83em;
