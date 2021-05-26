@@ -19,7 +19,7 @@ The border around the navigation bar has been added to make each individual drop
 
 We changed many files such as header.php, footer.php and responsive.css.
 
-Logo positioning was changed to the top right to fit the required design that would appeal best to the user.
+Logo positioning was changed to the top left to fit the required design that would appeal best to the user.
 
 ![image](https://user-images.githubusercontent.com/42225927/119663749-fc672000-be75-11eb-93c2-fac2bd82ea99.png)
 
