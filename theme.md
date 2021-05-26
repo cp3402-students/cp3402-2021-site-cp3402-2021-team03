@@ -2,7 +2,7 @@ For the website there were a few changes made from the pre-existing theme we dec
 
 These changes include:
 
-The footer and social media link was added as per request of client to promote the social media aspect of this organisation, this will heap entice people to view the Facebook page.
+The footer and social media link was added as per request of client to promote the social media aspect of this organisation, this will help entice people to view the Facebook page.
 
 ![image](https://user-images.githubusercontent.com/42225927/119663633-dc376100-be75-11eb-9a84-8669ece38f5f.png)
 
