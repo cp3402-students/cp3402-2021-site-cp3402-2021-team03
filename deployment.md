@@ -28,7 +28,7 @@ We used siteground as a hosting server to publish and visualise our website.
 PHP Storm
 
 To allow us to edit the theme, we utilised a php development program called PHP Storm to allow us to make changes to 
-wordpress theme files using the wordpress syntax. This then connected up to our github repository where we stored and shared 
+wordpress theme files using the wordpress syntax. This was tested on a local environment (Vagrant) to do incremental changes before changing the live files. This then connected up to our github repository where we stored and shared 
 the theme files amoung the group so that anyone could make changes to our custom theme. We continuously made changes to parts 
 of our starter theme to further improve the sites' usability and asthetic appeal.
 
